@@ -2,8 +2,8 @@ from flask import Flask, render_template, jsonify, request
 app = Flask(__name__)
 
 #global variables
-id_g = 'bob'
-pw_g = '1111'
+id_global = 'bob'
+pw_global = '1111'
 
 # 페이지
 
