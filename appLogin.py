@@ -12,9 +12,14 @@ pw_global = '1111'
 def home():
     return 'My Homepage'
 
+@app.route('/try1')
+def try1():
+    return render_template('try1.html')
+
 @app.route('/login')
 def login():
     return render_template('login.html')
+
 
 @app.route('/register')
 def register():
